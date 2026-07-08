@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netlify Deployment Guide — NHVK</title>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Sarabun',sans-serif;background:#f4f2ee;color:#2a2a2a;padding:30px 20px;}
+.page{max-width:820px;margin:0 auto;}
+h1{font-size:26px;font-weight:700;color:#2d4a2d;margin-bottom:6px;}
+.subtitle{font-size:14px;color:#888;margin-bottom:30px;}
+.section{background:white;border-radius:10px;padding:28px 32px;margin-bottom:20px;}
+.section.gold{border-left:4px solid #c9a84c;}
+.section.green{border-left:4px solid #2d4a2d;}
+.section.blue{border-left:4px solid #3a7abf;}
+.section.red{border-left:4px solid #cc4444;}
+.sec-title{font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#888;margin-bottom:18px;}
+.step{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px;}
+.step:last-child{margin-bottom:0;}
+.step-num{min-width:32px;height:32px;background:#2d4a2d;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;flex-shrink:0;margin-top:2px;}
+.step-content{flex:1;}
+.step-title{font-size:15px;font-weight:600;color:#2a2a2a;margin-bottom:4px;}
+.step-desc{font-size:13px;color:#5a5a4a;line-height:1.7;font-weight:300;}
+.step-desc a{color:#2d4a2d;font-weight:600;}
+.tip{background:#f0f7ee;border:1px solid #c0dab0;border-radius:6px;padding:12px 16px;margin-top:10px;font-size:13px;color:#2d4a2d;line-height:1.6;}
+.tip strong{font-weight:700;}
+.warn{background:#fff8ee;border:1px solid #f0d080;border-radius:6px;padding:12px 16px;margin-top:10px;font-size:13px;color:#7a5a00;line-height:1.6;}
+.code{background:#1e2a1e;color:#a8d8a8;padding:10px 14px;border-radius:6px;font-family:monospace;font-size:13px;margin-top:8px;word-break:break-all;}
+.file-list{margin-top:12px;}
+.file-item{display:flex;align-items:center;gap:10px;padding:8px 12px;background:#f9f7f3;border:1px solid #e8e3da;border-radius:6px;margin-bottom:6px;font-size:13px;}
+.file-icon{font-size:16px;flex-shrink:0;}
+.file-name{font-weight:600;color:#2d4a2d;min-width:200px;}
+.file-desc{color:#7a7a6a;font-weight:300;}
+.done-box{background:linear-gradient(135deg,#2d4a2d,#3d6030);border-radius:10px;padding:24px 28px;color:white;text-align:center;}
+.done-box h2{font-size:22px;font-weight:300;margin-bottom:8px;}
+.done-box p{font-size:13px;color:rgba(255,255,255,0.75);line-height:1.7;}
+.done-box .url{font-size:18px;font-weight:700;color:#e8c97a;margin:12px 0;}
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1>Netlify Deployment Guide</h1>
+<div class="subtitle">Natural Healthy Village Kaengkrachan — Step-by-step to go live at natural-healthy-village.com</div>
+
+<!-- FILES IN THIS PACKAGE -->
+<div class="section gold">
+<div class="sec-title">Files in this package — upload all of these</div>
+<div class="file-list">
+  <div class="file-item"><div class="file-icon">🌐</div><div class="file-name">index.html</div><div class="file-desc">The complete website — all content and photos embedded</div></div>
+  <div class="file-item"><div class="file-icon">⚙️</div><div class="file-name">netlify.toml</div><div class="file-desc">Netlify configuration — redirects, security headers, cache settings</div></div>
+  <div class="file-item"><div class="file-icon">🤖</div><div class="file-name">robots.txt</div><div class="file-desc">Tells Google how to crawl your site — important for SEO</div></div>
+  <div class="file-item"><div class="file-icon">🗺️</div><div class="file-name">sitemap.xml</div><div class="file-desc">Tells Google all pages to index — speeds up SEO ranking</div></div>
+</div>
+</div>
+
+<!-- STEP 1: CREATE NETLIFY ACCOUNT -->
+<div class="section green">
+<div class="sec-title">Part 1 — Create your free Netlify account & deploy the site</div>
+
+<div class="step">
+  <div class="step-num">1</div>
+  <div class="step-content">
+    <div class="step-title">Go to Netlify and create a free account</div>
+    <div class="step-desc">Open your browser and go to <a href="https://netlify.com" target="_blank">netlify.com</a>. Click <strong>"Sign up"</strong> — use your email address or sign up with Google. The free plan is completely sufficient for your website.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">2</div>
+  <div class="step-content">
+    <div class="step-title">Deploy your site — drag and drop (easiest method)</div>
+    <div class="step-desc">Once logged in, you will see the Netlify dashboard. Scroll down until you see a box that says <strong>"Want to deploy a new site without connecting to Git?"</strong> with a drag-and-drop area underneath it.<br><br>
+    <strong>Select all 4 files</strong> (index.html, netlify.toml, robots.txt, sitemap.xml) from the folder on your computer, then <strong>drag them all at once</strong> into that box.</div>
+    <div class="tip"><strong>Important:</strong> Drag all 4 files together — not the folder, the files themselves. On Windows: open the folder, select all (Ctrl+A), drag. On Mac: open the folder, select all (Cmd+A), drag.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">3</div>
+  <div class="step-content">
+    <div class="step-title">Your site is live! (with a temporary Netlify URL)</div>
+    <div class="step-desc">After uploading, Netlify will give you a random URL like <strong>https://fancy-alpaca-123456.netlify.app</strong>. Your site is already live and working at this address! Open it in your browser to check everything looks correct before connecting your domain.</div>
+  </div>
+</div>
+</div>
+
+<!-- STEP 2: CONNECT YOUR DOMAIN -->
+<div class="section blue">
+<div class="sec-title">Part 2 — Connect your domain natural-healthy-village.com</div>
+
+<div class="step">
+  <div class="step-num">4</div>
+  <div class="step-content">
+    <div class="step-title">Add your custom domain in Netlify</div>
+    <div class="step-desc">In your Netlify dashboard, click on your new site, then go to <strong>Site settings → Domain management → Add a domain</strong>. Type in: <strong>natural-healthy-village.com</strong> and click Verify. Also add <strong>www.natural-healthy-village.com</strong>.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">5</div>
+  <div class="step-content">
+    <div class="step-title">Find your Netlify DNS nameservers</div>
+    <div class="step-desc">Netlify will show you 4 nameservers that look like this:</div>
+    <div class="code">dns1.p01.nsone.net<br>dns2.p01.nsone.net<br>dns3.p01.nsone.net<br>dns4.p01.nsone.net</div>
+    <div class="step-desc" style="margin-top:8px;"><strong>Copy these 4 nameservers</strong> — you will need them in the next step.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">6</div>
+  <div class="step-content">
+    <div class="step-title">Update nameservers at your domain registrar</div>
+    <div class="step-desc">Log in to wherever you registered your domain (GoDaddy, Namecheap, Name.com, etc.). Find the <strong>DNS settings</strong> or <strong>Nameservers</strong> section for natural-healthy-village.com. Replace the existing nameservers with the 4 Netlify nameservers you copied in Step 5.</div>
+    <div class="warn"><strong>Note:</strong> DNS changes take 15 minutes to 48 hours to propagate worldwide. During this time the site may show the old page. This is normal — just wait.</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">7</div>
+  <div class="step-content">
+    <div class="step-title">Enable free HTTPS (SSL certificate)</div>
+    <div class="step-desc">Once your domain is connected, go to <strong>Site settings → Domain management → HTTPS</strong>. Click <strong>"Verify DNS configuration"</strong> then <strong>"Provision certificate"</strong>. Netlify will automatically install a free SSL certificate. This makes your site https:// which Google requires for good SEO ranking.</div>
+    <div class="tip">This is completely free and automatic — Netlify handles renewals for you forever.</div>
+  </div>
+</div>
+</div>
+
+<!-- STEP 3: SUBMIT TO GOOGLE -->
+<div class="section gold">
+<div class="sec-title">Part 3 — Tell Google your site exists (critical for SEO)</div>
+
+<div class="step">
+  <div class="step-num">8</div>
+  <div class="step-content">
+    <div class="step-title">Submit to Google Search Console</div>
+    <div class="step-desc">Go to <a href="https://search.google.com/search-console" target="_blank">search.google.com/search-console</a>. Sign in with your Google account. Click <strong>"Add property"</strong> and enter <strong>https://www.natural-healthy-village.com</strong>. Google will ask you to verify ownership — choose the <strong>HTML tag method</strong> and paste the code they give you into the &lt;head&gt; section of your index.html (I can do this for you).</div>
+  </div>
+</div>
+
+<div class="step">
+  <div class="step-num">9</div>
+  <div class="step-content">
+    <div class="step-title">Submit your sitemap to Google</div>
+    <div class="step-desc">In Google Search Console, go to <strong>Sitemaps</strong> in the left menu. Enter: <strong>sitemap.xml</strong> and click Submit. Google will now crawl and index your site within a few days.</div>
+    <div class="tip"><strong>After this, your site will start appearing in Google search results</strong> for terms like "land for sale Kaengkrachan", "ที่ดินขาย แก่งกระจาน", "weekend home near Bangkok" etc.</div>
+  </div>
+</div>
+</div>
+
+<!-- STEP 4: UPDATE WHEN A PLOT SELLS -->
+<div class="section green">
+<div class="sec-title">Part 4 — How to update the site when a plot sells</div>
+
+<div class="step">
+  <div class="step-num">10</div>
+  <div class="step-content">
+    <div class="step-title">Updating is simple — just re-upload</div>
+    <div class="step-desc">When a plot sells, tell me and I will send you a new index.html with that plot removed and the count updated (e.g. "5 plots remaining"). Then:<br><br>
+    1. Go to your Netlify dashboard<br>
+    2. Click on your site<br>
+    3. Go to <strong>Deploys</strong><br>
+    4. Drag the new index.html file into the deploy box<br>
+    5. Done — the site updates in under 60 seconds worldwide</div>
+    <div class="tip"><strong>No technical knowledge needed for updates.</strong> The whole process takes about 2 minutes.</div>
+  </div>
+</div>
+</div>
+
+<!-- FINAL CHECKLIST -->
+<div class="section red">
+<div class="sec-title">Quick checklist before going live</div>
+<div class="step"><div class="step-num">✓</div><div class="step-content"><div class="step-title">Open the site on your mobile phone</div><div class="step-desc">The site is fully mobile-responsive. Check that photos, text and contact buttons all look correct on your phone screen.</div></div></div>
+<div class="step"><div class="step-num">✓</div><div class="step-content"><div class="step-title">Test both phone number links</div><div class="step-desc">On mobile, tapping the phone numbers (081 860 4501 and 095 365 2500) should open your dialler directly.</div></div></div>
+<div class="step"><div class="step-num">✓</div><div class="step-content"><div class="step-title">Test the email link</div><div class="step-desc">Tapping kaengkrachan.village@proton.me should open your email app.</div></div></div>
+<div class="step"><div class="step-num">✓</div><div class="step-content"><div class="step-title">Add the URL to all your other materials</div><div class="step-desc">Once live, add www.natural-healthy-village.com to: your LINE broadcast messages, Facebook page, DDproperty listings, billboard design, and email signature.</div></div></div>
+</div>
+
+<!-- SUCCESS BOX -->
+<div class="done-box">
+  <h2>Your website will be live at</h2>
+  <div class="url">www.natural-healthy-village.com</div>
+  <p>Free hosting &nbsp;&middot;&nbsp; Free SSL (https) &nbsp;&middot;&nbsp; Fast global CDN &nbsp;&middot;&nbsp; SEO-optimised &nbsp;&middot;&nbsp; Mobile-friendly<br>Updates in 2 minutes whenever a plot sells</p>
+</div>
+
+</div>
+</body>
+</html>

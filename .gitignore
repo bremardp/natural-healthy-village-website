@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.code-workspace
+
+# Netlify local CLI state
+.netlify/
+
+# Secrets (if added later)
+.env
+.env.*

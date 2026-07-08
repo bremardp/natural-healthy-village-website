@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.natural-healthy-village.com/sitemap.xml
