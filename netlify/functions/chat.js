@@ -24,7 +24,7 @@ RULES:
 - Keep answers concise (under 200 words unless detail is requested).
 - When relevant, mention they can arrange a site visit: EN/FR 081 860 4501, Thai 095 365 2500, email kaengkrachan.village@proton.me`;
 
-const MODELS = ['gemini-1.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash-8b'];
+const MODELS = ['gemini-3.5-flash', 'gemini-2.5-flash', 'gemini-3.1-flash-lite'];
 
 const headers = {
   'Content-Type': 'application/json',
