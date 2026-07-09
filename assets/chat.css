@@ -8,6 +8,7 @@
 .nhvk-msg{max-width:88%;padding:10px 14px;border-radius:10px;font-size:13px;line-height:1.55;font-weight:300;}
 .nhvk-msg.user{align-self:flex-end;background:#2d4a2d;color:white;border-bottom-right-radius:2px;}
 .nhvk-msg.bot{align-self:flex-start;background:#f5f0e8;color:#2a2a20;border-bottom-left-radius:2px;}
+.nhvk-msg.thinking{align-self:flex-start;background:#e8ede4;color:#6a6a5a;font-style:italic;font-size:12px;}
 .nhvk-msg.error{align-self:flex-start;background:#fff0f0;color:#8b3030;}
 #nhvk-chat-form{display:flex;padding:12px;border-top:1px solid #eee;gap:8px;}
 #nhvk-chat-input{flex:1;border:1px solid #ddd;border-radius:6px;padding:10px 12px;font-family:'Sarabun',sans-serif;font-size:13px;resize:none;height:42px;}

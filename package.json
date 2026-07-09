@@ -1,7 +1,6 @@
 {
   "name": "natural-healthy-village-website",
   "private": true,
-  "type": "module",
   "dependencies": {
     "@google/generative-ai": "^0.24.0"
   }

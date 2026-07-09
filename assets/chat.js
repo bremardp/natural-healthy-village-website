@@ -30,6 +30,12 @@
     el.textContent = text;
     messages.appendChild(el);
     messages.scrollTop = messages.scrollHeight;
+    return el;
+  }
+
+  function removeThinking() {
+    const t = messages.querySelector('.nhvk-msg.thinking');
+    if (t) t.remove();
   }
 
   function toggle() {
@@ -50,6 +56,7 @@
     if (!text) return;
     input.value = '';
     addMsg(text, 'user');
+    addMsg('Thinking…', 'bot thinking');
     sendBtn.disabled = true;
     try {
       const res = await fetch('/.netlify/functions/chat', {
@@ -62,21 +69,27 @@
       try {
         data = JSON.parse(raw);
       } catch {
+        removeThinking();
         addMsg('Server error. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
         sendBtn.disabled = false;
         input.focus();
         return;
       }
       if (!res.ok) {
+        removeThinking();
         addMsg(data.error || 'Server error (' + res.status + '). Please call 081 860 4501.', 'error');
       } else if (data.reply) {
+        removeThinking();
         addMsg(data.reply, 'bot');
       } else if (data.error) {
+        removeThinking();
         addMsg(data.error, 'error');
       } else {
+        removeThinking();
         addMsg('No response from assistant. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
       }
     } catch {
+      removeThinking();
       addMsg('Connection error. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
     }
     sendBtn.disabled = false;
