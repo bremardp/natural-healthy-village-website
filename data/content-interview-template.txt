@@ -23,8 +23,31 @@ TOPIC: (e.g. chapel construction, earth blocks, tree planting)
 5. WHAT MAKES THIS UNIQUE TO NHVK (not generic Thailand advice)
    -
 
-6. PHOTOS AVAILABLE? (file names or description)
-   -
+6. PHOTOS (do not paste images into this file — list them like below)
+   Put JPEG files in a folder on your computer, e.g.:
+     photos/knowledge/chapel-construction/
+   Then list each photo here:
+
+   Photo 1:
+     File name: chapel-island-aerial.jpg
+     Shows: Aerial view of chapel on the lake island
+     Use in section: (e.g. top of article / step 3)
+     Caption (EN): Optional short caption for the website
+     Caption (TH): Optional Thai caption
+
+   Photo 2:
+     File name: stone-cutting-detail.jpg
+     Shows: ...
+     Use in section: ...
+     Caption (EN): ...
+     Caption (TH): ...
+
+   Notes:
+   - JPG or PNG, ideally 1200–2000 px wide (we resize for web)
+   - Name files clearly: topic-subject.jpg (no spaces, use hyphens)
+   - Tell us the folder path where you saved them, OR attach/copy into:
+       natural-healthy-village-website/photos/knowledge/<topic-slug>/
+   - We will add them to the HTML article when publishing
 
 7. LANGUAGES: EN / TH / FR (which versions needed?)
    -

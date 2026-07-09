@@ -133,6 +133,47 @@
       ]
     },
     {
+      "id": "sufficiency-economy-learning-center",
+      "slug": "sufficiency-economy-learning-center",
+      "status": "published",
+      "title": "Sufficiency Economy Learning Center (Baan Din) near Kaengkrachan",
+      "title_th": "ศูนย์การเรียนรู้เศรษฐกิจพอเพียง บ้านดิน",
+      "summary": "Baan Din is an open farm-style sufficiency economy learning center near Khao Kling mountain, close to Natural Healthy Village. Visitors learn earth-block building, agriculture, and self-sufficiency. Established 2007, supported by HRH Princess Maha Chakri Sirindhorn.",
+      "questions": [
+        "What is Baan Din Sufficiency Economy Learning Center?",
+        "Where is the sufficiency economy learning center near Kaengkrachan?",
+        "Is Baan Din safe to visit with family?"
+      ],
+      "sections": [
+        {
+          "heading": "About Baan Din",
+          "body": "Rehabilitation and learning center for inmates with good conduct in open farm style. Participants learn earth-block houses, agriculture, and food production following King Rama IX Sufficiency Economy philosophy. Built 2007."
+        },
+        {
+          "heading": "Location",
+          "body": "87 Moo 8 Wangkrai Road, Kaengkrachan. Near turnaround from Phetkasem Road to Kaengkrachan Lake, close to Khao Kling mountain. Natural Healthy Village is behind Khao Kling mountain. Phone 032-465-171."
+        },
+        {
+          "heading": "Connection to NHVK",
+          "body": "Earth-block techniques from Baan Din informed NHVK. The founding professor advised on early land development at Natural Healthy Village. Plot owners may request help building earth-block houses through the center."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Who supports Baan Din?",
+          "answer": "HRH Princess Maha Chakri Sirindhorn. Established 2007 following King Rama IX directives."
+        },
+        {
+          "question": "Is it safe for families?",
+          "answer": "Yes. Families and children welcome. Participants are friendly and explain activities. Feed animals, sheep farm attraction."
+        },
+        {
+          "question": "What is the website?",
+          "answer": "https://phetchaburiprison.wixsite.com/phetburiprison/khaokling"
+        }
+      ]
+    },
+    {
       "id": "chapel-construction",
       "slug": "chapel-construction",
       "status": "draft",
