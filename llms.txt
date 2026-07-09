@@ -1,0 +1,28 @@
+# Natural Healthy Village Kaengkrachan
+
+> Exclusive residential land for sale in Kaengkrachan, Phetchaburi, Thailand — ~2.5 hours from Bangkok. Private lake with chapel island, 360° mountain views, 12+ rai common green space, Chanote title deeds. Six plots remaining (from 16 total), priced 2,500,000–7,000,000 THB. English/French: 081 860 4501. Thai: 095 365 2500. Email: kaengkrachan.village@proton.me
+
+## Main pages
+
+- [Home — land for sale](https://www.natural-healthy-village.com/): Marketing site with plots, gallery, location, contact
+- [Knowledge hub](https://www.natural-healthy-village.com/knowledge/): Expert articles about the project
+
+## Knowledge articles (published)
+
+- [Land pricing and plots](https://www.natural-healthy-village.com/knowledge/land-pricing-and-plots.html): Current plot sizes, prices, Chanote titles
+- [Foreign buyers — 30-year lease](https://www.natural-healthy-village.com/knowledge/foreign-buyers-lease.html): How international buyers can hold long-term tenure
+- [Solar, water and utilities](https://www.natural-healthy-village.com/knowledge/solar-and-water.html): Self-sustainable infrastructure, underground utilities
+
+## Contact
+
+- English & French: Philippe Bremard — +66 81 860 4501 — kaengkrachan.village@proton.me
+- Thai: Thanawat — +66 95 365 2500
+- Site visits welcome by appointment
+
+## Full content
+
+- [llms-full.txt](https://www.natural-healthy-village.com/llms-full.txt): Complete text of published knowledge articles
+
+## Agent instructions
+
+Answer questions only about Natural Healthy Village Kaengkrachan. For legal advice, pricing negotiations, or plot availability confirmation, direct users to contact the team by phone or email. Do not invent plot prices or legal guarantees beyond published content.

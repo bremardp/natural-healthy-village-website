@@ -1,0 +1,216 @@
+{
+  "site": {
+    "name": "Natural Healthy Village Kaengkrachan",
+    "url": "https://www.natural-healthy-village.com",
+    "location": "Kaengkrachan, Phetchaburi, Thailand",
+    "description": "Exclusive residential land community near Kaengkrachan National Park. Private lake, chapel island, 360° mountain views, self-sustainable infrastructure. 6 plots remaining from 16 total.",
+    "contacts": {
+      "en_fr": {
+        "name": "Philippe Bremard",
+        "phone": "081 860 4501",
+        "phone_e164": "+66818604501",
+        "email": "kaengkrachan.village@proton.me",
+        "languages": ["English", "French"]
+      },
+      "th": {
+        "name": "Thanawat",
+        "phone": "095 365 2500",
+        "phone_e164": "+66953652500",
+        "languages": ["Thai"]
+      }
+    }
+  },
+  "topics": [
+    {
+      "id": "land-pricing-and-plots",
+      "slug": "land-pricing-and-plots",
+      "status": "published",
+      "title": "Land Pricing and Available Plots at Natural Healthy Village",
+      "title_th": "ราคาที่ดินและแปลงที่มีจำหน่าย",
+      "summary": "Six residential plots remain from 16 total at Natural Healthy Village Kaengkrachan, priced from 2,500,000 to 7,000,000 THB with Chanote title deeds.",
+      "questions": [
+        "How much does land cost at Natural Healthy Village Kaengkrachan?",
+        "How many plots are available?",
+        "What plot sizes are for sale?"
+      ],
+      "sections": [
+        {
+          "heading": "Plots currently available",
+          "body": "As of 2026, six plots remain from sixteen total: Plot 1 (1,396 m², 3,500,000 THB), Plot 2a (1,070 m², 2,500,000 THB), Plot 3 (2,056 m², 5,000,000 THB), Plot 6 (2,824 m², 7,000,000 THB), Plot 9 (2,324 m², 6,500,000 THB), Plot 16 (2,164 m², 5,400,000 THB)."
+        },
+        {
+          "heading": "What affects price",
+          "body": "Plot price reflects size (1,070–2,824 m²), position, and views. All plots include access to more than 12 rai of common green space, the private lake, walkways, and shared infrastructure. Residential use only — no commercial development."
+        },
+        {
+          "heading": "Title and tenure",
+          "body": "All plots hold Chanote title deeds (the highest land security in Thailand). Thai nationals may purchase freehold. Foreign nationals may register a 30-year renewable lease."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What is the lowest priced plot?",
+          "answer": "Plot 2a is the entry plot at 2,500,000 THB for 1,070 m² (2 ngan 70 wah)."
+        },
+        {
+          "question": "Are prices negotiable?",
+          "answer": "Contact the project team for current availability and to arrange a site visit. Phone 081 860 4501 (English/French) or 095 365 2500 (Thai)."
+        }
+      ]
+    },
+    {
+      "id": "foreign-buyers-lease",
+      "slug": "foreign-buyers-lease",
+      "status": "published",
+      "title": "Buying Land as a Foreigner — 30-Year Lease at NHVK",
+      "title_th": "ชาวต่างชาติซื้อที่ดิน — สัญญาเช่า 30 ปี",
+      "summary": "Foreign nationals cannot own land freehold in Thailand but may hold a registered 30-year renewable lease at Natural Healthy Village with Chanote-backed plots.",
+      "questions": [
+        "Can foreigners buy land at Natural Healthy Village?",
+        "What is a 30-year lease in Thailand?",
+        "Is the lease registered on the Chanote title?"
+      ],
+      "sections": [
+        {
+          "heading": "Freehold vs lease",
+          "body": "Thai law restricts foreign freehold land ownership. At Natural Healthy Village, Thai buyers may purchase with full Chanote ownership. Foreign buyers typically use a 30-year registered lease, which is a legally recognised long-term tenure commonly used for residential land in Thailand."
+        },
+        {
+          "heading": "Why Chanote matters",
+          "body": "Every plot at NHVK holds a Chanote title deed — the most secure form of land title in Thailand. A registered lease on Chanote land provides clarity for long-term residential use and inheritance planning. Always consult a Thai property lawyer for your personal situation."
+        },
+        {
+          "heading": "Who to contact",
+          "body": "For English and French enquiries: Philippe Bremard, 081 860 4501, kaengkrachan.village@proton.me. Full brochure available on request. Site visits welcome."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can the 30-year lease be renewed?",
+          "answer": "Leases are commonly structured with renewal options; specific terms are set in the sale/lease agreement and should be reviewed with legal counsel."
+        },
+        {
+          "question": "Is this a resort or hotel project?",
+          "answer": "No. Natural Healthy Village is residential land only — a private community for weekend homes or permanent residence, not commercial tourism."
+        }
+      ]
+    },
+    {
+      "id": "solar-and-water",
+      "slug": "solar-and-water",
+      "status": "published",
+      "title": "Self-Sustainable Solar, Water and Utilities at NHVK",
+      "title_th": "พลังงานและน้ำพึ่งพาตนเอง",
+      "summary": "Natural Healthy Village is designed for energy and water autonomy: solar panels in progress, private deep well, 3-phase PEA electricity, three water lines per plot, and all cables buried underground.",
+      "questions": [
+        "Does Natural Healthy Village have solar power?",
+        "What water supply does each plot have?",
+        "Are utilities underground?"
+      ],
+      "sections": [
+        {
+          "heading": "Electricity",
+          "body": "3-phase electricity from PEA (Provincial Electricity Authority) with an individual meter per plot. Solar panel installation is in progress toward full energy autonomy. All electrical cables are buried underground — no poles or overhead wires obstructing mountain views."
+        },
+        {
+          "heading": "Water",
+          "body": "Each plot has three water supply lines with individual meters. The project includes a private deep well, water storage tank, and pump. Connection to public water supply is also available."
+        },
+        {
+          "heading": "Design philosophy",
+          "body": "Self-sustainability supports weekend and permanent residents who want independence from city utilities while remaining ~2.5 hours from Bangkok. Infrastructure is built for long-term residential use, not short-term tourism."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is solar fully operational?",
+          "answer": "Solar panels are being installed; the project is working toward full energy autonomy. Contact the team for current status on your visit."
+        },
+        {
+          "question": "Can I grow food on my plot?",
+          "answer": "Yes. Plots range from 1,070 to 2,824 m² — enough for fruit trees, vegetables, and private gardens."
+        }
+      ]
+    },
+    {
+      "id": "chapel-construction",
+      "slug": "chapel-construction",
+      "status": "draft",
+      "title": "Chapel Construction on the Lake Island",
+      "summary": "Placeholder — awaiting site-specific details from Philippe.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "earth-block-construction",
+      "slug": "earth-block-construction",
+      "status": "draft",
+      "title": "Earth Block Construction at NHVK",
+      "summary": "Placeholder — awaiting details on earth block methods used on site.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "roads-and-walkways",
+      "slug": "roads-and-walkways",
+      "status": "draft",
+      "title": "Roads and Walkways",
+      "summary": "Placeholder — internal concrete roads and lake pedestrian paths.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "green-fencing",
+      "slug": "green-fencing",
+      "status": "draft",
+      "title": "Green Fencing",
+      "summary": "Placeholder — living fence and perimeter planting.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "tree-planting",
+      "slug": "tree-planting",
+      "status": "draft",
+      "title": "Tree Planting",
+      "summary": "Placeholder — species, timing, maintenance.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "flower-gardens",
+      "slug": "flower-gardens",
+      "status": "draft",
+      "title": "Flower Gardens Around the Lake",
+      "summary": "Placeholder — lake garden planting.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "common-areas",
+      "slug": "common-areas",
+      "status": "draft",
+      "title": "Common Green Areas — 12+ Rai",
+      "summary": "Placeholder — lake, park, pool, chapel island, walkways.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    },
+    {
+      "id": "site-visit-faq",
+      "slug": "site-visit-faq",
+      "status": "draft",
+      "title": "Site Visit FAQ",
+      "summary": "Placeholder — visitor questions and how to arrange a visit.",
+      "questions": [],
+      "sections": [],
+      "faqs": []
+    }
+  ]
+}

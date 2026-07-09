@@ -10,6 +10,9 @@ desktop.ini
 # Netlify local CLI state
 .netlify/
 
+# Dependencies
+node_modules/
+
 # Secrets (if added later)
 .env
 .env.*
