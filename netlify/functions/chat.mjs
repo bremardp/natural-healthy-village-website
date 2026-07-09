@@ -6,8 +6,18 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 function loadCatalog() {
-  const path = join(__dirname, '../../data/knowledge-catalog.json');
-  return JSON.parse(readFileSync(path, 'utf8'));
+  const candidates = [
+    join(__dirname, '../../data/knowledge-catalog.json'),
+    join(process.cwd(), 'data/knowledge-catalog.json'),
+  ];
+  for (const p of candidates) {
+    try {
+      return JSON.parse(readFileSync(p, 'utf8'));
+    } catch {
+      /* try next path */
+    }
+  }
+  throw new Error('knowledge-catalog.json not found');
 }
 
 function buildKnowledgeContext(catalog) {
@@ -63,13 +73,38 @@ export const handler = async (event) => {
     const knowledge = buildKnowledgeContext(catalog);
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash',
       systemInstruction: `${SYSTEM}\n\n--- KNOWLEDGE BASE ---\n${knowledge}`,
     });
 
     const result = await model.generateContent(message);
+    const response = result.response;
 
-    const reply = result.response.text();
+    let reply = '';
+    try {
+      reply = (response.text() || '').trim();
+    } catch (textErr) {
+      console.error('Gemini text() error:', textErr);
+      const reason = response.candidates?.[0]?.finishReason || 'unknown';
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          error: `I could not generate an answer (${reason}). Please call 081 860 4501 or email kaengkrachan.village@proton.me`,
+        }),
+      };
+    }
+
+    if (!reply) {
+      return {
+        statusCode: 200,
+        headers,
+        body: JSON.stringify({
+          error: 'I could not generate an answer. Please call 081 860 4501 or email kaengkrachan.village@proton.me',
+        }),
+      };
+    }
+
     return { statusCode: 200, headers, body: JSON.stringify({ reply }) };
   } catch (err) {
     console.error('Chat error:', err);

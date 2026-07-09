@@ -52,13 +52,30 @@
     addMsg(text, 'user');
     sendBtn.disabled = true;
     try {
-      const res = await fetch('/api/chat', {
+      const res = await fetch('/.netlify/functions/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text }),
       });
-      const data = await res.json();
-      addMsg(data.reply || data.error || 'No response.', data.error ? 'error' : 'bot');
+      const raw = await res.text();
+      let data = {};
+      try {
+        data = JSON.parse(raw);
+      } catch {
+        addMsg('Server error. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
+        sendBtn.disabled = false;
+        input.focus();
+        return;
+      }
+      if (!res.ok) {
+        addMsg(data.error || 'Server error (' + res.status + '). Please call 081 860 4501.', 'error');
+      } else if (data.reply) {
+        addMsg(data.reply, 'bot');
+      } else if (data.error) {
+        addMsg(data.error, 'error');
+      } else {
+        addMsg('No response from assistant. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
+      }
     } catch {
       addMsg('Connection error. Please call 081 860 4501 or email kaengkrachan.village@proton.me', 'error');
     }
