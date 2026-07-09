@@ -186,12 +186,47 @@
     {
       "id": "earth-block-construction",
       "slug": "earth-block-construction",
-      "status": "draft",
-      "title": "Earth Block Construction at NHVK",
-      "summary": "Placeholder — awaiting details on earth block methods used on site.",
-      "questions": [],
-      "sections": [],
-      "faqs": []
+      "status": "published",
+      "title": "Earth Block Construction at Natural Healthy Village",
+      "title_th": "การก่อสร้างกำแพงดิน",
+      "summary": "NHVK produces earth blocks from on-site soil and white limestone using a custom hydraulic press. Walls up to 60 cm thick provide natural cooling without air conditioning. Concrete structure with earth block infill.",
+      "questions": [
+        "What is an earth block?",
+        "What are the advantages of earth block walls?",
+        "Is earth block construction expensive at NHVK?"
+      ],
+      "sections": [
+        {
+          "heading": "How blocks are made",
+          "body": "Site earth mixed with white limestone and water in a plaster mixer, poured into moulds, hydraulically pressed, air-cured several days. Foundation excavation soil is reused. Techniques from Baan Din, refined at NHVK."
+        },
+        {
+          "heading": "Advantages",
+          "body": "Thermal inertia keeps houses cool without AC. Limestone plaster helps walls breathe and release humidity. Earth is a living material in harmony with natural soil."
+        },
+        {
+          "heading": "Structure and cost",
+          "body": "Concrete columns, beams, slabs; earth blocks for wall infill up to 60 cm. Single storey cheaper than Qcon. Two storeys need +20% structure cost. Slower build, trained workforce required."
+        },
+        {
+          "heading": "Measured on site",
+          "body": "Entrance building: 60 cm wall room is 2°C cooler than 30 cm room year-round. 30 cm sufficient; 60 cm is luxury."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is earth block solid?",
+          "answer": "Yes. Ancient earth walls lasted centuries. NHVK uses concrete shell with earth block infill up to 60 cm thick."
+        },
+        {
+          "question": "Can plot owners build earth-block houses?",
+          "answer": "Yes. Help and manpower available from Baan Din learning center. Contact NHVK team."
+        },
+        {
+          "question": "How is NHVK different from La Terre contractor?",
+          "answer": "NHVK uses custom press and moulds with site soil-limestone mix. La Terre uses large formwork and heavy equipment at higher cost."
+        }
+      ]
     },
     {
       "id": "roads-and-walkways",
