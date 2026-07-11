@@ -27,20 +27,30 @@
       "status": "published",
       "title": "Land Pricing and Available Plots at Natural Healthy Village",
       "title_th": "ราคาที่ดินและแปลงที่มีจำหน่าย",
-      "summary": "Six residential plots remain from 16 total at Natural Healthy Village Kaengkrachan, priced from 2,500,000 to 7,000,000 THB with Chanote title deeds.",
+      "summary": "Six residential plots remain from 16 total at Natural Healthy Village Kaengkrachan, priced from 2,500,000 to 7,000,000 THB (1,070–2,824 m²). Chanote deeds, 12+ rai common land, underground utilities. Updated July 2026.",
       "questions": [
         "How much does land cost at Natural Healthy Village Kaengkrachan?",
         "How many plots are available?",
-        "What plot sizes are for sale?"
+        "What plot sizes are for sale?",
+        "What is the lowest priced plot?",
+        "Are prices negotiable?"
       ],
       "sections": [
         {
           "heading": "Plots currently available",
-          "body": "As of 2026, six plots remain from sixteen total: Plot 1 (1,396 m², 3,500,000 THB), Plot 2a (1,070 m², 2,500,000 THB), Plot 3 (2,056 m², 5,000,000 THB), Plot 6 (2,824 m², 7,000,000 THB), Plot 9 (2,324 m², 6,500,000 THB), Plot 16 (2,164 m², 5,400,000 THB)."
+          "body": "As of July 2026, six plots remain from sixteen total: Plot 1 (1,396 m², 3,500,000 THB), Plot 2a (1,070 m², 2,500,000 THB), Plot 3 (2,056 m², 5,000,000 THB), Plot 6 (2,824 m², 7,000,000 THB), Plot 9 (2,324 m², 6,500,000 THB), Plot 16 (2,164 m², 5,400,000 THB)."
+        },
+        {
+          "heading": "Plot sizes",
+          "body": "Plots were designed between 1,000 and 2,800 m² — enough for a large house, swimming pool, tropical garden, and space to grow vegetables and fruit."
         },
         {
           "heading": "What affects price",
-          "body": "Plot price reflects size (1,070–2,824 m²), position, and views. All plots include access to more than 12 rai of common green space, the private lake, walkways, and shared infrastructure. Residential use only — no commercial development."
+          "body": "Plot price reflects size (1,070–2,824 m²), position, and views. All plots include access to more than 12 rai of common green space, the private lake, walkways, and shared infrastructure. Residential use only. Every plot has underground 3-phase electrical supply with individual meter and three water supply lines with individual meters."
+        },
+        {
+          "heading": "What makes NHVK different",
+          "body": "NHVK was designed for self-sustainability, low density, and living comfort. Many traditional developments offer only ~800 m² per plot and minimum common area (~5% as required by law). At NHVK, owners share more than 12 rai of lakes, walkways, and green space."
         },
         {
           "heading": "Title and tenure",
@@ -51,6 +61,10 @@
         {
           "question": "What is the lowest priced plot?",
           "answer": "Plot 2a is the entry plot at 2,500,000 THB for 1,070 m² (2 ngan 70 wah)."
+        },
+        {
+          "question": "What plot sizes are available?",
+          "answer": "Available plots range from 1,070 m² (Plot 2a) to 2,824 m² (Plot 6) — sized for a substantial home, pool, garden, and food growing."
         },
         {
           "question": "Are prices negotiable?",
