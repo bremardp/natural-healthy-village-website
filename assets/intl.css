@@ -1,5 +1,5 @@
-/* French pages. Design tokens and components mirror index.html so the
-   French side of the site is visually identical to the English one. */
+/* Shared stylesheet for the non-English language pages. Design tokens and components mirror index.html so the
+   language pages are visually identical to the English site. */
 :root{--forest:#2d4a2d;--forest-dark:#1e3320;--sage:#5a7a4a;--gold:#c9a84c;--gold-light:#e8c97a;
 --cream:#f5f0e8;--warm-white:#faf8f4;--earth:#8b6914;--bark:#3a2a18;--mist:#e8ede4;
 --text:#2a2a20;--text-muted:#6a6a5a;}
