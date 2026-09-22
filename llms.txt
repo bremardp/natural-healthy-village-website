@@ -4,22 +4,22 @@
 
 ## Main pages
 
-- [Home — land for sale](https://www.natural-healthy-village.com/): Marketing site with plots, gallery, location, contact
-- [Knowledge hub](https://www.natural-healthy-village.com/knowledge/): Expert articles about the project
+- [Home — land for sale](https://natural-healthy-village.com/): Marketing site with plots, gallery, location, contact
+- [Knowledge hub](https://natural-healthy-village.com/knowledge/): Expert articles about the project
 
 ## Knowledge articles (published)
 
-- [Land pricing and plots](https://www.natural-healthy-village.com/knowledge/land-pricing-and-plots.html): Six plots 2.5M–7M THB with per-plot views (lake, chapel island, Khao Kling), 12+ rai common land, Chanote titles (July 2026)
-- [Foreign buyers — 30-year lease](https://www.natural-healthy-village.com/knowledge/foreign-buyers-lease.html): How international buyers can hold long-term tenure
-- [Solar, water and utilities](https://www.natural-healthy-village.com/knowledge/solar-and-water.html): Self-sustainable infrastructure, underground utilities
+- [Land pricing and plots](https://natural-healthy-village.com/knowledge/land-pricing-and-plots): Six plots 2.5M–7M THB with per-plot views (lake, chapel island, Khao Kling), 12+ rai common land, Chanote titles (July 2026)
+- [Foreign buyers — 30-year lease](https://natural-healthy-village.com/knowledge/foreign-buyers-lease): How international buyers can hold long-term tenure
+- [Solar, water and utilities](https://natural-healthy-village.com/knowledge/solar-and-water): Self-sustainable infrastructure, underground utilities
 
 ## Local area (published)
 
-- [Baan Din Sufficiency Economy Learning Center](https://www.natural-healthy-village.com/knowledge/sufficiency-economy-learning-center.html): Earth-block learning centre near Khao Kling, close to NHVK
+- [Baan Din Sufficiency Economy Learning Center](https://natural-healthy-village.com/knowledge/sufficiency-economy-learning-center): Earth-block learning centre near Khao Kling, close to NHVK
 
 ## Construction (published)
 
-- [Earth block construction at NHVK](https://www.natural-healthy-village.com/knowledge/earth-block-construction.html): On-site soil blocks, limestone mix, hydraulic press, natural cooling
+- [Earth block construction at NHVK](https://natural-healthy-village.com/knowledge/earth-block-construction): On-site soil blocks, limestone mix, hydraulic press, natural cooling
 
 ## Contact
 
@@ -29,7 +29,7 @@
 
 ## Full content
 
-- [llms-full.txt](https://www.natural-healthy-village.com/llms-full.txt): Complete text of published knowledge articles
+- [llms-full.txt](https://natural-healthy-village.com/llms-full.txt): Complete text of published knowledge articles
 
 ## Agent instructions
 

@@ -19,4 +19,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://www.natural-healthy-village.com/sitemap.xml
+Sitemap: https://natural-healthy-village.com/sitemap.xml
