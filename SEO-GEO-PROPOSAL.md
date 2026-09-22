@@ -291,3 +291,54 @@ A caution worth stating plainly: a pile of thin translated pages is a well-known
 to get a site classified as a doorway network. Each language page should carry real
 content, its own photographs, and honest local framing — as the French and German
 ones do. We would rather ship four good pages than ten hollow ones.
+
+---
+
+# Round 4 — Dutch, Spanish and the Chinese question
+
+## Dutch and Spanish are both worth having
+
+| Language | Searches/month | Difficulty | Page |
+|---|---|---|---|
+| **Dutch** — Netherlands 1,400, Belgium 200 | **~1,600** | **0** | Added, `/nl/` |
+| **Spanish** — Spain 810, Mexico 60, Argentina 50 | ~920 | **0** | Added, `/es/` |
+
+Difficulty zero across both. Latin America turns out to be negligible for this
+product, so the Spanish page is really a Spain page.
+
+Two useful details. The Dutch term "huis kopen in thailand als buitenlander" —
+buying a house in Thailand as a foreigner — gets 90 a month at difficulty 0 and
+maps exactly onto the 30-year lease explanation. And the Spanish demand skews to
+retirement: "vivir en tailandia jubilado" at 110 a month.
+
+Both pages carry the same honest framing as the German one: the first section says
+we sell plots and not finished houses, and the contact section says enquiries are
+answered in English and French only.
+
+## Chinese is smaller than it looks
+
+Worth setting out plainly, because the intuition is that Chinese buyers are a large
+force in Thai property — which is true, but not through Google.
+
+| Market | Searches/month | Script |
+|---|---|---|
+| Taiwan | 500 | Traditional |
+| Hong Kong | 120 | Traditional |
+| Singapore | 40 | Simplified |
+| Malaysia | 40 | Simplified |
+| **Total** | **~700** | split across two scripts |
+
+Mainland China uses Baidu, not Google, so Google data does not see it. What is left
+is roughly 700 searches a month, mostly Taiwanese, and it would need **Traditional**
+characters to serve the main part of it.
+
+There is a second problem, and it matters more. Nobody connected to this project can
+read the result. Every other language page here was written to be checked — the
+French by Philippe, the German and Dutch and Spanish close enough to English and
+French that errors are visible. Chinese copy would go live unverified on a site
+selling multi-million-baht land. That cuts against the whole point of looking
+credible.
+
+Our recommendation is to skip Chinese unless a native speaker can review the page
+before it ships. 700 searches a month is not worth the risk of looking careless to
+the readers who do arrive.
