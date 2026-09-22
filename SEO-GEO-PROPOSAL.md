@@ -223,3 +223,71 @@ See section 3B above. We still need the right numbers.
 
 ### 4. Decide on Germany
 See above. A yes or no is enough for now.
+
+---
+
+# Round 3 — every market we could find
+
+Decision taken: pursue all markets, with enquiries handled in English.
+
+## The full map
+
+| Market | Searches/month | Difficulty | Page |
+|---|---|---|---|
+| **English** — US 3,700, UK 4,000, AU 1,440, CA 550 | **~9,700** | 0–21 | **Already exists** |
+| **German** — DE, AT 540, CH 520 | ~8,000 gross | **0–6** | Added, `/de/` |
+| **French** — FR, BE 190, CH 180 | ~2,900 | **0–3** | Added, `/fr/` |
+| Dutch | 1,400 | not measured | Not yet |
+| Scandinavian — SE 560, NO 180, DK 150 | ~890 | not measured | Not yet |
+| Spanish | 810 | not measured | Not yet |
+| Polish | 710 | not measured | Not yet |
+| Italian | 700 | not measured | Not yet |
+| Finnish | 50 | — | Not worth it |
+| Russian | no data | — | Google is not the main engine there |
+
+**The single most important line in that table is the first one.** English is the
+largest market by a distance, and the site already serves it. It simply was not
+written for the terms those people type. That was corrected in an earlier change,
+and it will do more than any new language page.
+
+## An honest note on the German numbers
+
+The headline German figure needs qualifying. The biggest German term is
+**"haus kaufen thailand" — 2,400 a month — and it means "buy a finished house"**.
+Natural Healthy Village sells land to build on. The land-specific terms are much
+smaller:
+
+| German term | Searches/month | Means |
+|---|---|---|
+| haus kaufen thailand | 2,400 | buy a finished house |
+| immobilien thailand | 880 | property generally |
+| immobilien thailand kaufen | 320 | buy property |
+| **grundstück kaufen thailand** | **140** | **buy land — what we sell** |
+
+So the honestly addressable German demand is roughly **1,400 a month**, not 8,000.
+The new page can still pick up some of the "haus kaufen" traffic, because plenty of
+those searchers end up building, but it says plainly in the first paragraph that we
+sell plots and not finished houses. Some visitors will leave. That is the right
+trade: a page that misleads to win a click loses the sale anyway, and Google
+eventually notices.
+
+The retiree angle is the stronger German opening, and all of it is difficulty 0:
+"auswandern nach thailand als rentner" 320, "leben in thailand als rentner" 320,
+"auswandern thailand" 880.
+
+## The German page states the language limit
+
+The page says, in the badge row and again at the contact section, that enquiries are
+answered in English and French and not in German. Better to lose a visitor at the
+door than to take an enquiry we cannot answer well.
+
+## What we would do next, in order
+
+1. **Dutch** (1,400/month) — the next largest after German.
+2. **Spanish, Polish, Italian** (~700 each) — worth it once the pattern is proven.
+3. **Scandinavian** — three small markets, one shared page each, lowest priority.
+
+A caution worth stating plainly: a pile of thin translated pages is a well-known way
+to get a site classified as a doorway network. Each language page should carry real
+content, its own photographs, and honest local framing — as the French and German
+ones do. We would rather ship four good pages than ten hollow ones.
