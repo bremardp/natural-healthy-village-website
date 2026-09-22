@@ -1,0 +1,225 @@
+# Search strategy — findings and proposal
+
+Prepared September 2026. Search demand figures come from Google Ads data via DataForSEO.
+Nothing in this document has been applied to the website except the French page in this
+pull request. It is here for you to approve, change or reject.
+
+---
+
+## 1. What the data says
+
+### The site was built around a phrase nobody searches
+
+| Phrase | Searches per month |
+|---|---|
+| `ที่ดินขาย แก่งกระจาน` (was in the page title) | **0** |
+| `land for sale kaeng krachan` | **0** |
+| `land for sale phetchaburi` | **0** |
+
+"Kaeng Krachan" is how you think of the project, and it is correct. But almost nobody
+types it into Google. People search by the nearest place they already know.
+
+### They search for Hua Hin
+
+| Phrase | In Thailand | From the UK |
+|---|---|---|
+| property for sale thailand | 210 | **2,900** |
+| hua hin property for sale | **880** | 590 |
+| land for sale hua hin | 210 | — |
+| retire in thailand | — | 390 |
+
+### Your buyers are mostly not in Thailand
+
+Searches for "property for sale thailand" are roughly **fourteen times more common from the
+UK** than from inside Thailand. France adds around 1,500 a month across
+"acheter maison thaïlande", "immobilier thaïlande" and "retraite thaïlande".
+
+You already answer enquiries in French and English. That is an advantage very few
+Thai land sellers have.
+
+### The market is small, and that is worth saying plainly
+
+Total search demand for land in this area is a few hundred a month, not thousands.
+Search will be a **small, high-quality channel** — a handful of serious enquiries — not a
+source of large traffic. Anyone promising otherwise is selling something.
+
+---
+
+## 2. What is already done
+
+- Analytics and Google Search Console are installed and connected, so from now on we can
+  see which searches actually bring people to the site.
+- The site told Google its preferred address was `www.natural-healthy-village.com`, but
+  that address redirects to the non-www one. Google was being pointed at a dead end.
+  Fixed.
+- The home page was 2.6 MB because the photographs were embedded inside the page code.
+  It is now 50 KB and loads in well under a second. This matters: slow pages rank worse
+  and lose mobile visitors.
+- Phone and email clicks are now recorded, so we can count real enquiries.
+
+---
+
+## 3. Proposed next steps
+
+### A. A French page — included in this pull request
+
+`/fr/` — a French version covering the project, the plots and prices, the 30-year lease
+for foreign buyers, the location and the infrastructure. It contains **no new claims**:
+every fact is taken from the existing English pages and the knowledge base.
+
+Please check the French reads the way you would say it. It is your voice, not ours.
+
+### B. Correct the distance figures
+
+The site says **"40 km to Hua Hin and Cha-am"**. Measured from the project's own Google
+Maps coordinates, the straight-line distance is **45.7 km to Hua Hin** and **29.4 km to
+Cha-am** — so one figure cannot be right for both, and a 40 km road distance to Hua Hin is
+not possible if the straight line is already 45.7 km.
+
+We have left the wording alone. Please tell us the correct figures and we will update them
+everywhere at once.
+
+### C. Fix the Google Maps listing category
+
+The project's Google listing is currently categorised as **"lodging"** — accommodation.
+This tells Google, and every AI assistant that reads Google, that you rent rooms. You sell
+land. This is probably the single most damaging wrong signal on the internet about the
+project, and it is free to fix in Google Business Profile.
+
+### D. Be where buyers already are
+
+For Thai searches, **four of the top ten Google results are Facebook groups**. For English
+searches, all ten are property portals — Fazwaz, DDProperty, Thailand-Property. A single
+project site will not outrank them, and trying is wasted effort.
+
+The better move is to be listed *on* those portals and active in those groups, and let the
+website be the place people land once they are interested.
+
+### E. Questions, not adjectives
+
+AI assistants increasingly answer property questions directly. They quote pages that
+answer a specific question in plain, checkable sentences — prices, distances, legal
+conditions. The knowledge base already does this well; it is the strongest SEO asset on
+the site. More articles in that style, answering real buyer questions, is the best
+long-term investment.
+
+---
+
+## 4. What we recommend against
+
+- Chasing "land for sale thailand" and similar broad terms. The portals own them.
+- Adding keywords to pages for their own sake. It reads badly and no longer works.
+- Any promise that search will deliver large numbers of buyers. It will not, here.
+
+---
+
+# Round 2 — deeper research, September 2026
+
+The first round asked "what do people search for near Kaeng Krachan?" and found the
+answer was "almost nothing". This round asked a better question: **where in the world are
+people searching for what you actually sell, and how hard is it to reach them?**
+
+"Difficulty" below is Google keyword difficulty, 0–100. Under about 20, a small
+well-written site can realistically rank. Over 60, you are fighting portals and
+would lose.
+
+## The three markets, by size
+
+| Market | Roughly, searches/month | Difficulty | You can serve it today? |
+|---|---|---|---|
+| **Germany** | 7,000+ | **0–6** | No — no German speaker |
+| **United Kingdom** | 4,000 | 0–21 | Yes |
+| **France** | 2,500 | **0–3** | **Yes — Philippe is French** |
+| Sweden | 560 | — | No |
+| Thailand | small, and mostly land-office admin searches | — | Yes, via Thanawat |
+
+## Germany is the biggest prize and we cannot currently take it
+
+| German keyword | Searches/month | Difficulty |
+|---|---|---|
+| haus kaufen thailand | **2,400** | **0** |
+| haus in thailand kaufen | 1,300 | **0** |
+| auswandern thailand | 880 | 5 |
+| immobilien thailand | 880 | — |
+| auswandern nach thailand als rentner | 320 | **0** |
+
+Difficulty zero at 2,400 searches a month is extraordinary — it means nobody is
+competing properly for it. German retirees are also the classic Hua Hin buyer.
+
+The problem is honest and simple: **nobody at Natural Healthy Village speaks German.**
+Sending German traffic to a page that can only answer in English or French wastes it.
+This is a business decision, not a technical one:
+
+- Do nothing, and leave it.
+- Publish a German page that states plainly that enquiries are handled in English —
+  many German buyers in Thailand operate in English, but some will leave.
+- Find a German-speaking contact, even part-time, and then build the page.
+
+We recommend deciding this deliberately rather than by default.
+
+## France is the best fit
+
+Smaller than Germany, but **you already speak the language**, and the difficulty is
+near zero:
+
+| French keyword | Searches/month | Difficulty |
+|---|---|---|
+| acheter maison thaïlande | 720 | — |
+| vivre en thaïlande | **590** | **0** |
+| immobilier thaïlande | 390 | **3** |
+| retraite thaïlande | 260 | — |
+| partir vivre en thaïlande | 140 | **0** |
+| achat immobilier thaïlande | 90 | **0** |
+
+This pull request adds the second French page, a buying guide covering the legal
+framework, the Chanote title and what to check before buying. It uses only facts already
+published on the site.
+
+## The retirement angle
+
+People do not search "land for sale". They search for the life they want.
+
+| English keyword | Searches/month | Difficulty |
+|---|---|---|
+| retire in thailand | 390 | **1** |
+| retire in thailand from uk | 320 | **3** |
+| how much to retire in thailand | 70 | **0** |
+| can i retire in thailand | 50 | 6 |
+
+One caution. "retirement visa thailand" gets 1,300 searches a month and looks tempting.
+We recommend **not** writing about visa requirements. Immigration rules change, getting
+them wrong harms readers, and the results are dominated by immigration lawyers for good
+reason. Write about the things you actually know.
+
+---
+
+# Pages we would like Philippe to write
+
+These are the highest-value pages we can identify, and they are ones **only you can
+write honestly**. We can shape and publish them, but the substance has to be yours.
+Short is fine — 400 to 600 words each.
+
+### 1. "Vivre en Thaïlande, près de Hua Hin" (French)
+Target: ~870 searches/month at difficulty 0.
+
+Not a generic lifestyle article — there are thousands of those. What we want is what you
+actually know after living there: what the area is genuinely like day to day, what the
+seasons do, what is within driving distance, what surprised you, what you would warn a
+French buyer about. Honest and specific beats polished and vague, both for readers and
+for AI assistants, which increasingly quote first-hand detail.
+
+Please do not include visa rules or cost-of-living figures unless you are confident
+they are current.
+
+### 2. "Retiring near Hua Hin" (English)
+Target: ~830 searches/month at difficulty 0–3.
+
+Same idea for the British and Commonwealth audience. What makes this area suitable, or
+unsuitable, for someone retiring. Healthcare access, the drive to Bangkok, the community,
+what the practicalities really are.
+
+### 3. Correct the distance figures
+See section 3B above. We still need the right numbers.
+
+### 4. Decide on Germany
+See above. A yes or no is enough for now.
