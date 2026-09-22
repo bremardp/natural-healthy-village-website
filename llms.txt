@@ -20,7 +20,8 @@
 - [Home — land for sale](https://natural-healthy-village.com/): Marketing site with plots, gallery, location, contact
 - [Knowledge hub](https://natural-healthy-village.com/knowledge/): Expert articles about the project
 
-- [Version française](https://natural-healthy-village.com/fr/): Terrains à vendre, prix, bail 30 ans pour acheteurs étrangers, emplacement
+- [Version française](https://natural-healthy-village.com/fr/)
+- [Guide d'achat pour acheteurs français](https://natural-healthy-village.com/fr/acheter-un-terrain-en-thailande/): Cadre légal, bail 30 ans, titre Chanote, points à vérifier: Terrains à vendre, prix, bail 30 ans pour acheteurs étrangers, emplacement
 
 ## Knowledge articles (published)
 
