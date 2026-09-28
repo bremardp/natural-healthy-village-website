@@ -1,0 +1,546 @@
+/* NHVK Signage — 3 m × 2 m (3:2) print canvas */
+:root {
+  --forest: #2d4a2d;
+  --forest-dark: #1e3320;
+  --sage: #5a7a4a;
+  --gold: #c9a84c;
+  --gold-light: #e8c97a;
+  --cream: #f5f0e8;
+  --mist: #e8ede4;
+  --sign-w: 6000px;
+  --sign-h: 4000px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: var(--sign-w);
+  height: var(--sign-h);
+  overflow: hidden;
+  background: #111;
+}
+
+.sign-canvas {
+  width: var(--sign-w);
+  height: var(--sign-h);
+  position: relative;
+  overflow: hidden;
+  border: 12px solid var(--gold);
+  background: var(--forest-dark);
+}
+
+/* ── Sign 1 & 2: split layout ── */
+.sign-split {
+  display: grid;
+  grid-template-columns: 58% 42%;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-photo-main {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.sign-photo-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+
+.sign-panel {
+  background: var(--forest-dark);
+  padding: 180px 120px 140px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.sign-panel-inset {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 520px;
+  height: 380px;
+  border: 6px solid var(--gold);
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+}
+
+.sign-panel-inset img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.sign-eyebrow {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 52px;
+  font-weight: 300;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.sign-eyebrow.en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  letter-spacing: 4px;
+  text-transform: none;
+}
+
+.sign-title-th {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--gold-light);
+  margin-bottom: 20px;
+}
+
+.sign-title-th .white { color: white; }
+
+.sign-subtitle {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 56px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 60px;
+}
+
+.sign-title-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 200px;
+  font-weight: 300;
+  line-height: 0.95;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sign-title-en .gold {
+  color: var(--gold-light);
+  font-style: italic;
+}
+
+.sign-subtitle-bilingual {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 64px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 70px;
+  font-style: italic;
+}
+
+.sign-bullets {
+  list-style: none;
+  margin-bottom: 70px;
+  flex: 1;
+}
+
+.sign-bullets li {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.45;
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.sign-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 18px;
+  height: 18px;
+  background: var(--gold);
+  border-radius: 50%;
+}
+
+.sign-bullets.en li {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 46px;
+  line-height: 1.4;
+}
+
+.sign-bullets.en li::before { top: 20px; }
+
+.sign-urgency {
+  border: 4px solid var(--gold);
+  padding: 50px 60px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+
+.sign-urgency-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 200px;
+  font-weight: 600;
+  color: var(--gold-light);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.sign-urgency-text {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.sign-urgency-text .main {
+  font-size: 58px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.sign-urgency-text .sub {
+  font-size: 44px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.75);
+}
+
+.sign-urgency.en .sign-urgency-text .main {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 56px;
+}
+
+.sign-urgency.en .sign-urgency-text .sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 42px;
+}
+
+.sign-contact {
+  border-top: 2px solid rgba(201,168,76,0.35);
+  padding-top: 50px;
+}
+
+.sign-contact-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.sign-contact-label {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.6);
+}
+
+.sign-contact-label.en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+}
+
+.sign-contact-value {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.sign-contact-value.en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 68px;
+  font-weight: 600;
+}
+
+.sign-contact-name {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.55);
+}
+
+.sign-contact-name.en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  font-style: italic;
+}
+
+.sign-contact-email {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.85);
+}
+
+.sign-contact-email.en {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 46px;
+}
+
+/* ── Sign 2 EN/FR: photo-right variant ── */
+.sign-split.en-layout {
+  grid-template-columns: 52% 48%;
+}
+
+.sign-panel-overlay {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sign-panel-overlay .bg-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+}
+
+.sign-panel-overlay .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(15,30,15,0.92) 0%, rgba(20,40,22,0.88) 60%, rgba(15,30,15,0.75) 100%);
+}
+
+.sign-panel-content {
+  position: relative;
+  z-index: 2;
+  padding: 160px 100px 120px 120px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sign-photos-stack {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  gap: 8px;
+  background: var(--forest-dark);
+  padding: 8px 8px 8px 0;
+}
+
+.sign-photos-stack img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Sign 3: Master plan ── */
+.sign-masterplan {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sign-masterplan > img.plan {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center top;
+  display: block;
+  background: #f5f0e8;
+}
+
+.sign-sold-stamps {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.sign-sold {
+  position: absolute;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: #c0392b;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transform: rotate(-12deg);
+  text-shadow: 1px 1px 0 white, -1px -1px 0 white;
+  opacity: 0.92;
+}
+
+.sign-masterplan-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(30,51,32,0.95) 30%);
+  padding: 120px 100px 60px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.sign-masterplan-footer .brand {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 72px;
+  font-weight: 300;
+  color: white;
+  font-style: italic;
+}
+
+.sign-masterplan-footer .brand span { color: var(--gold-light); }
+
+.sign-masterplan-footer .status {
+  text-align: right;
+}
+
+.sign-masterplan-footer .status .num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 120px;
+  font-weight: 600;
+  color: var(--gold-light);
+  line-height: 1;
+}
+
+.sign-masterplan-footer .status .label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 48px;
+  color: rgba(255,255,255,0.85);
+  font-weight: 300;
+}
+
+.sign-masterplan-footer .contact {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 40px;
+  color: rgba(255,255,255,0.7);
+  font-weight: 300;
+  text-align: right;
+  margin-top: 16px;
+}
+
+/* ── Roadside readability (80 km/h, 3 m × 2 m) ── */
+
+/* Thai sign — chapel above text, vertically centred */
+.thai-roadside .sign-panel.thai-panel-centered {
+  padding: 60px 80px;
+  justify-content: center;
+}
+
+.thai-roadside .sign-panel-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 100%;
+}
+
+.thai-roadside .sign-chapel-feature {
+  width: 100%;
+  height: 720px;
+  border: 6px solid var(--gold);
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+}
+
+.thai-roadside .sign-chapel-feature img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  display: block;
+}
+
+.thai-roadside .sign-eyebrow {
+  font-size: 80px;
+  margin-bottom: 32px;
+}
+
+.thai-roadside .sign-title-th {
+  font-size: 188px;
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+.thai-roadside .sign-subtitle {
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+
+.thai-roadside .sign-bullets {
+  margin-bottom: 0;
+}
+
+.thai-roadside .sign-bullets li {
+  font-size: 72px;
+  margin-bottom: 28px;
+  padding-left: 64px;
+  line-height: 1.3;
+}
+
+.thai-roadside .sign-bullets li::before {
+  top: 32px;
+  width: 24px;
+  height: 24px;
+}
+
+.thai-roadside .sign-urgency {
+  padding: 40px 48px;
+  margin-bottom: 40px;
+}
+
+.thai-roadside .sign-urgency-num {
+  font-size: 260px;
+}
+
+.thai-roadside .sign-urgency-text .main {
+  font-size: 82px;
+}
+
+.thai-roadside .sign-urgency-text .sub {
+  font-size: 62px;
+}
+
+/* EN/FR sign — larger hero text, more left-panel width */
+.en-roadside .sign-split.en-layout {
+  grid-template-columns: 58% 42%;
+}
+
+.en-roadside .sign-panel-content {
+  padding: 100px 60px 80px 90px;
+}
+
+.en-roadside .sign-hero-block .sign-eyebrow.en {
+  font-size: 92px;
+  margin-bottom: 40px;
+}
+
+.en-roadside .sign-hero-block .sign-title-en {
+  font-size: 340px;
+  margin-bottom: 20px;
+  line-height: 0.92;
+}
+
+.en-roadside .sign-hero-block .sign-subtitle-bilingual {
+  font-size: 104px;
+  margin-bottom: 64px;
+}
+
+.en-roadside .sign-hero-block .sign-bullets.en li {
+  font-size: 80px;
+  margin-bottom: 36px;
+  padding-left: 68px;
+  line-height: 1.3;
+}
+
+.en-roadside .sign-hero-block .sign-bullets.en li::before {
+  top: 32px;
+  width: 26px;
+  height: 26px;
+}
+
+.en-roadside .sign-contact-row {
+  justify-content: flex-start;
+  gap: 60px;
+}
+
