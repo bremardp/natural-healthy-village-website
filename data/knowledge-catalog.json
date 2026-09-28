@@ -218,12 +218,60 @@
     {
       "id": "chapel-construction",
       "slug": "chapel-construction",
-      "status": "draft",
+      "status": "published",
       "title": "Chapel Construction on the Lake Island",
-      "summary": "Placeholder — awaiting site-specific details from Philippe.",
-      "questions": [],
-      "sections": [],
-      "faqs": []
+      "title_th": "การก่อสร้างโบสถ์บนเกาะกลางทะเลสาบ",
+      "summary": "Gothic stone chapel on an island in the Natural Healthy Village lake. Designed by the project founder and built in three years by a French Compagnon du Tour de France with five Thai stonemasons. Saraburi stone, Thai limestone, Ayutthaya roof tiles, and stained glass made in Bangkok from medieval French glass. Open to everyone; dedicated to Shri Mataji Nirmala Devi.",
+      "questions": [
+        "Why was a chapel built at Natural Healthy Village?",
+        "How was the chapel built?",
+        "What materials were used for the chapel?",
+        "Who can use the chapel?"
+      ],
+      "sections": [
+        {
+          "heading": "Why a chapel here",
+          "body": "Some of the project founders practise meditation and wanted a place where participants and visitors can follow a spiritual path. The Gothic design and use of stone follow a chapel in Planès, in the French Pyrenees, chosen for its simplicity and quiet — a transmission from the Middle Ages. The chapel is meant as a landmark for future generations: humility, contemplation, and harmony."
+        },
+        {
+          "heading": "How it was built",
+          "body": "The design is by the project founder. Construction was led by a French stonemason, a Compagnon du Tour de France, who trained five Thai workers in stone cutting and carving. Training reached builder level in three months; the same level usually takes several years for French apprentices. The chapel was completed in three years by a team of five."
+        },
+        {
+          "heading": "Materials",
+          "body": "Local materials were used wherever possible. Stone comes from a quarry in Saraburi and is four times harder than the stone used for cathedrals in France, so it should last longer. Limestone is from Thailand. Roof tiles are from Ayutthaya. Stained glass was made in Bangkok; the glass itself comes from France, from the last workshop that has produced stained-glass material since the Middle Ages."
+        },
+        {
+          "heading": "Construction method",
+          "body": "Stone was supported on wooden centering during construction. Stones are assembled without cement, using limestone mortar only, so the masonry can breathe and move. Every stone was cut to fit; no adjustment was needed when the courses were lined up. Heads are carved on the keystones of the arcades, including Hanuman. Vaults use stone ribs filled with red brick, then limestone plaster. The floor is terracotta tile whose geometry is a square with six semicircles — two in positive and four in negative. The chandelier is forged steel, shaped in the manner of the chapel and of medieval lighting."
+        },
+        {
+          "heading": "Who can use it",
+          "body": "The chapel is dedicated to Shri Mataji Nirmala Devi, incarnation of the Adi Shakti. Everyone may use it. There is no religious restriction."
+        },
+        {
+          "heading": "What makes this unique to NHVK",
+          "body": "It is the only chapel in Thailand built with this traditional stonemason craft and these materials, and the only chapel in the world dedicated to Shri Mataji Nirmala Devi. Its size and its place on an island in the project lake make it part of the landscape, as if it had stood there for a long time."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why was a chapel built at Natural Healthy Village?",
+          "answer": "Founders who practise meditation wanted a quiet place for participants and visitors to follow a spiritual path, and a landmark of humility, contemplation, and harmony for future generations. The Gothic stone design follows a chapel in Planès, in the French Pyrenees."
+        },
+        {
+          "question": "How long did the chapel take to build?",
+          "answer": "Three years, with a team of five. A French Compagnon du Tour de France trained five Thai workers to stonemason-builder level in three months."
+        },
+        {
+          "question": "What materials were used?",
+          "answer": "Saraburi stone (about four times harder than French cathedral stone), Thai limestone mortar with no cement, Ayutthaya roof tiles, and stained glass made in Bangkok from glass produced in France since the Middle Ages. The floor is geometric terracotta tile."
+        },
+        {
+          "question": "Who can use the chapel?",
+          "answer": "Everyone. It is dedicated to Shri Mataji Nirmala Devi and has no religious restriction."
+        }
+      ]
     },
     {
       "id": "earth-block-construction",
